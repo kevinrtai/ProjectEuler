@@ -1,2 +1,1 @@
-19 Counting Sundays
 22 Name Values (MergeSort)

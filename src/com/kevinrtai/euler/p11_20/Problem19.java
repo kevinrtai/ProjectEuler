@@ -28,14 +28,8 @@ public class Problem19 {
 		int days = 0;
 		Month lastMonth = null;
 		for(int i = 0; i < 12; i++) {
-			System.out.println(i);
 			if(i == 1) {
-				if(1900 % 400 == 0 || (1900 % 4 == 0 && 1900 % 100 != 0)) {
-					days = 29;
-				}
-				else {
-					days = 28;
-				}
+				days = 28;
 			}
 			else if(i == 3 || i == 5 || i == 8 || i == 10) {
 				days = 30;
