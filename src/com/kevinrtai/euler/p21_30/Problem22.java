@@ -30,6 +30,7 @@ public class Problem22 {
 			cheating.add(s);
 		}
 		
+		//Just kidding. Let's use ArrayList.sort();
 		cheating.sort(new Comparator<String>() {
 
 			@Override
